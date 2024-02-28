@@ -5,4 +5,4 @@ future_in_50_years =  user_age +50
 
 print(" your age is " + str (user_age))
 
-print("your future" + str(future_in_50_years))
+print("your future will be" + str(future_in_50_years))
