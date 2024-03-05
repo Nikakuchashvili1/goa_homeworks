@@ -3,9 +3,9 @@ print("answer with true or false")
 answer = input("do you want ბულიონი" )
 
 if answer == "True":
-    print("answer: true")
+    print("answer: true")  
 elif answer == "false":
-    print("answer: false")
-else:
+    print("answer: false")   
     print("you answer wrong")
 print(type(True))
+
