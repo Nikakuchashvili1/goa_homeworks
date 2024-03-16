@@ -13,7 +13,7 @@ else:
 #დავალება 2
 points = int(input("enter your points: "))
 if points == 10:
-    print("ჩექება")
+    print("შექება")
 elif points == 9 or points == 8:
     print("პატარა შენიშვნა")
 elif points == 5:
