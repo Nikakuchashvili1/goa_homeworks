@@ -1,0 +1,53 @@
+<!-- 2) შექმენით ფორმა, სადაც მომხმარებელი შეიტანს სახელს, გვარს, ემაილს, პაროლს, და იქნება რამდენიმე select, ერთი იქნება საჭმელების ჩამონათვალი, 
+    მეორეში სპორტის სხვადასხვა სახეების ჩამონათვალი, მესამეში იქნება მანქანების ჩამონათვალი, ბოლოს იქნება ერთი submit ღილაკი რომელიც ამ ყველა ინფორმაციას გადააგზავნის ბაზაში, 
+    კოდი დაწერეთ სწორად, სტრუქტურის დაცვით, ატრიბუტების გამოყენებით(for, id, name, value) და ასევე დაამატეთ label ები -->
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <form>
+                <center>
+                    <label for="email"> Email </label>
+                    <input type="email" placeholder="email" id="email"
+                    name="email" value="email" ><br><br>
+                    
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="password" id="password"
+                    name="password" value="password"><br><br>
+                    
+                    <label for="text"> Name </label>
+                    <input type="text" placeholder="name" id="text"
+                    name="name" value="name"><br><br>
+                    
+                    <label for="text"> Last Name </label>
+                    <input type="text" placeholder="last name" id="text"
+                    name="last name" value="last name"><br><br>
+                    
+                    <label for="text"> Number </label>
+                    <input type="text" placeholder="number" id="text"
+                    name="number" value="number"><br><br>
+                </center>
+                    <form>
+                        <label for="ბულიონი"> შენი საყვარელი საჭმელი </label>
+                        <section id="ბულიონი">
+                            <option value="ბულიონი"> ბულიონი</option>
+                            <option value="ჩაქაფული"> ჩაქაფული</option>
+                            <option value="ლობიო"> ლობიო </option>
+                        </section>
+                   
+                    
+                    
+                    <input type="submit"><br><br>
+                  </form>
+               
+        </form>
+    </body>
+    </html>
