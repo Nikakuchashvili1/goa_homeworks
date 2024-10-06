@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+    color: #333; 
+    padding: 20px;
+}
+
+
+.color1 {
+    color: rgb(255, 0, 0);
+}
+
+.color2 {
+    color: rgb(0, 255, 0);
+}
+
+.color3 {
+    color: rgb(0, 0, 255); 
+}
+
+.color4 {
+    color: rgb(255, 255, 0); 
+}
+
+.color5 {
+    color: rgb(0, 255, 255); 
+}
+
+
+.color6 {
+    color: #FF5733; 
+}
+
+.color7 {
+    color: #33FF57;
+}
+
+.color8 {
+    color: #3357FF; 
+}
+
+.color9 {
+    color: #FF33A1; 
+}
+
+.color10 {
+    color: #A133FF; 
+}

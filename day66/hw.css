@@ -1,0 +1,26 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-color: #f8f9fa; 
+}
+
+
+.parent-div {
+    height: 700px;
+    width: 1000px; 
+    background-color: black; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.child-div {
+    height: 175px; 
+    width: 250px; 
+    background-color: red; 
+}
