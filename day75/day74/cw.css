@@ -1,0 +1,13 @@
+
+
+
+
+div{
+    width: 100px, 100px;
+    color: red;
+}
+
+div:hover{
+    color:black;
+    width: 50px, 50px;
+}

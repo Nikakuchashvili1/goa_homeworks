@@ -1,0 +1,177 @@
+<!-- 1) პირველ რიგში გადახედეთ თავიდან ჩანაწერს და კომენტარების 
+ სახით დაწერეთ ყველა pseudo-სელექტორის მნიშვნელობა-->
+
+ <link rel="stylesheet" href="hw.css">
+
+
+<!-- 2) გამოიყენეთ :link რათა ყველა არასდროს დაჭერილი ლინკის ფერი იყოს ლურჯი -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="hw.css">
+    
+    <body>
+        
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a:link {
+            color: blue; 
+        }
+    </style>
+     </body>
+</head>
+</html>
+
+<!-- 
+3) გამოიყენეთ :visited რათა ყველა უმვე მონახულებული 
+ლინკის ფერი იყოს იასამნისფერი -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="hw.css">
+    <body>
+        
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a:link {
+            color: blue; 
+        }
+        a:visited {
+            color: purple; 
+        }
+    </style>
+     </body>
+</head>
+</html>
+
+
+<!-- 4) გამოიყენეთ :hover რათა მაუსის ლინკზე გადატარებისას 
+ტექსტის ფერი და background შეიცვალოს -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Hover Effect</title>
+    <style>
+        
+        a {
+            text-decoration: none;
+            color: blue; 
+            padding: 5px 10px; 
+            border-radius: 4px; 
+            transition: background-color 0.3s, color 0.3s; 
+        }
+
+       
+        a:hover {
+            color: white; 
+            background-color: blue; 
+        }
+    </style>
+</head>
+
+</body>
+
+</html>
+
+
+<!-- 5) გამოიყენეთ :active რათა ლინკზე დაჭერის მომენტში 
+background გამუქდეს და ტექსტის ზომა შეიცვალოს -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Link Example</title>
+    <style>
+        body {
+            transition: background-color 0.3s ease;
+        }
+
+        a {
+            font-size: 16px;
+            color: blue;
+            text-decoration: none;
+            transition: font-size 0.3s ease;
+        }
+
+        a:active {
+            background-color: rgba(0, 0, 0, 0.5); 
+            font-size: 20px;
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#">Click Me!</a>
+
+</body>
+</html>
+
+
+<!-- 6) შექმენი ლინკი, რომელიც ნორმალურ მდგომარეობაში შავი 
+ფერის იქნება, ხოლო :hover-ის დროს შეიცვალოს მუქი ნაცრისფრად. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Color Example</title>
+    <style>
+        a {
+            color: black; 
+            text-decoration: none;
+            transition: color 0.3s ease; 
+        }
+
+        a:hover {
+            color: darkgray; 
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#">Hover Over Me!</a>
+
+</body>
+</html>
+
+
+
+<!-- 7) შექმენი ლინკები, რომლებიც :hover მდგომარეობაში მიიღებენ 
+underline (ხაზგასმას), ხოლო ნორმალურ მდგომარეობაში არა -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Underline Example</title>
+    <style>
+        a {
+            color: black; 
+            text-decoration: none; 
+            transition: text-decoration 0.3s ease; 
+        }
+
+        a:hover {
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#">Hover Over Me!</a>
+
+</body>
+</html>
+

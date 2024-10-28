@@ -1,0 +1,12 @@
+/* 1)შექმენით ცხრილი რომელსაც გასტილავთ ზედაპირულად border 
+გამოიყენებთ padding და margin და კომენტარებით დაწერთ რას აკეთებს თითოეული ცხრილში 
+შეიტანეთ ინფორმაცია 5 ადამიანის შესახებ 
+მათი სახელები გვარები ასაკები და სიმაღლეები(ნებისმიერი რამ ჩაწერეთ) */
+
+table{
+    margin: 100px;
+    border-bottom: 5px red;
+    border-bottom: 5px solid black;
+    border-bottom: 150px yellow ;
+    border-bottom: 200px brown;
+}
